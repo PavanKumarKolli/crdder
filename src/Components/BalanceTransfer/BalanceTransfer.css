@@ -1,0 +1,95 @@
+.Banktransfer-about-maincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .Banktransfer-loanmain-divcon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 7px;
+    margin: 12px;
+  }
+  .About-Banktransferloan-container {
+    width: 500px;
+    color: grey;
+    height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  
+    padding: 12px;
+    border-radius: 9px;
+  }
+  .About-Banktransferloan-container span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .about-read-more-less {
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    outline-style: none;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+  }
+  /* Banktransfer-benifits&Drawbacks */
+  .Banktransfer-benifits-Drawbacks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px;
+    border-radius: 9px;
+  }
+  /* note points logo */
+  #logo--div{
+    color: orange;
+  }
+  /* .Banktransfer-loanimg-container{
+    width: 300px;
+  } */
+  .Banktransfer-benefit-container {
+    display: flex;
+    flex-direction: column;
+   
+    width: 500px;
+    line-height: 30px;
+  }
+  /* Banktransfer-loan-criteria */
+  .Banktransfer-loan-criteriacontainer span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 30px;
+  }
+  /* Banktransfer-drawback-container */
+  
+  .Banktransfer-drawback-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    line-height: 30px;
+  }
+  
+  /* Banktransfer Total Container */
+  
+  .Banktransfer-total-divcontainer{
+    margin: 40px 80px;
+  }
+  

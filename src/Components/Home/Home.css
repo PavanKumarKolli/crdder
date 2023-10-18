@@ -1,0 +1,94 @@
+.Home-about-maincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.Home-loanmain-divcon {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 7px;
+  margin: 12px;
+}
+.About-homeloan-container {
+  width: 500px;
+  color: grey;
+  height: 400px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+  padding: 12px;
+  border-radius: 9px;
+}
+.About-homeloan-container span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.about-read-more-less {
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  outline-style: none;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+/* home-benifits&Drawbacks */
+.home-benifits-Drawbacks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 20px;
+  border-radius: 9px;
+}
+/* note points logo */
+#logo--div{
+  color: orange;
+}
+/* .Home-loanimg-container{
+  width: 300px;
+} */
+.home-benefit-container {
+  display: flex;
+  flex-direction: column;
+ 
+  width: 500px;
+  line-height: 30px;
+}
+/* Home-loan-criteria */
+.Home-loan-criteriacontainer span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 30px;
+}
+/* home-drawback-container */
+
+.home-drawback-container  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  line-height: 30px;
+}
+
+/* Home Total Container */
+
+.home-total-divcontainer{
+  margin: 40px 80px;
+}

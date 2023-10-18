@@ -1,0 +1,87 @@
+.Education-about-maincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .Education-loanmain-divcon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 7px;
+    margin: 12px;
+  }
+  .About-Educationloan-container {
+    width: 500px;
+    color: grey;
+    height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  
+    padding: 12px;
+    border-radius: 9px;
+  }
+  .About-Educationloan-container span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .about-read-more-less {
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    outline-style: none;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+  }
+  
+  .Educationloan-notepoints{
+    display:"flex";
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .Educationloan-notepoints span{
+    display: flex;
+    flex-direction: column;
+
+  }
+  /* note points logo */
+  #Educationlogo--div {
+    color: orange;
+  }
+
+  /* uvnderline div */
+  
+  .icons__value{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:.5rem;
+  }
+  .Education-privacy-custom{
+    margin-top: 30px;
+  }
+  
+  .Education-loanuvnder-div h2:hover {
+    text-decoration: 2px solid orange underline;
+  }
+  
+  /* Education Total Container */
+  
+  .Education-total-divcontainer {
+    margin: 40px 80px;
+  }
+  

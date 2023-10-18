@@ -1,0 +1,92 @@
+.Business-about-maincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .Business-loanmain-divcon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 7px;
+    margin: 12px;
+  }
+  .About-Businessloan-container {
+    width: 500px;
+    color: grey;
+    height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  
+    padding: 12px;
+    border-radius: 9px;
+  }
+  .About-Businessloan-container span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .about-read-more-less {
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    outline-style: none;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+  }
+  /* custom privacy */
+  .Business-privacy-custom{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+
+  }
+  .Business-loan-interst {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* note points logo */
+  #Businesslogo--div {
+    color: orange;
+  }
+  /* .Business-loanimg-container{
+      width: 300px;
+    } */
+  .Business-benefit-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    line-height: 30px;
+  }
+  /* Business-loan-criteria */
+  
+  .Business-loan-criteriacontainer span {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    line-height: 30px;
+  }
+  /* uvnderline div */
+  
+  .Business-loanuvnder-div h2:hover {
+    text-decoration: 2px solid orange underline;
+  }
+  
+  /* Business Total Container */
+  
+  .Business-total-divcontainer {
+    margin: 40px 80px;
+  }
+  
